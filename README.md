@@ -1,3 +1,7 @@
+# Reacting to APIs
+We're gonna be building a web application that is going to display all animated movies made by Studio Ghibli. Think of this as a mini-version of IMDB (https://www.imdb.com/)! It's just dedicated to all things Studio Ghibli rather than all movies ever. In this lab assignment, your primary objective is to request data from a third-party API, handle the response, and then display the data in the browser with React. We're gonna be using this free REST API that catalogues every resource you could ever need to know about the Studio Ghibli films. Take a minute to scroll through the documentation of the website to familiarize yourself with the data and see if you can determine what endpoints are exposed in the API.
+
+
 # Instructions
 Head to the REST API https://ghibliapi.herokuapp.com/ and in particular, pay attention to the two endpoints we're going to be using: /films and /people in this lab. When exploring the endpoints, examine the properties each film or person has. This way when we eventually fetch this data in React, set it to state, and map through it, you'll have a good idea of the properties you'll be displaying.
 
